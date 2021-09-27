@@ -33,7 +33,7 @@ module.exports.defaultJson = {
   },
   terms: {
     content:
-      "I agree to receive marketing communications and have read and agree to Cognni's Privacy Policy and Terms of Service.",
+      "I agree to receive marketing communications, and have read and agree to Cognni's Privacy Policy and Terms of Service.",
     privacyPolicyUrl: 'https://cognni.ai/privacy-policy/',
     termsOfServiceUrl: 'https://cognni.ai/terms-of-use/',
   },
@@ -69,15 +69,15 @@ module.exports.defaultJson = {
           questionType: 'booleanMulti',
           options: [
             {
-              text: 'Data breaches',
+              text: 'Data Breaches',
               icon: false,
             },
             {
-              text: 'Insider threats',
+              text: 'Insider Threats',
               icon: false,
             },
             {
-              text: 'Ransomware attacks',
+              text: 'Ransomware Attacks',
               icon: false,
             },
             {
@@ -89,11 +89,11 @@ module.exports.defaultJson = {
         {
           name: 'Relevant Use Cases',
           stateName: 'useCases',
-          text: 'Which of the following are you already doing to minimize the risk?',
+          text: 'Which of the following are you already doing to minimize your risk?',
           questionType: 'booleanMulti',
           options: [
             {
-              text: 'Cloud migration',
+              text: 'Cloud Migration',
               icon: false,
             },
             {
@@ -191,7 +191,7 @@ module.exports.defaultJson = {
         labels: [
           {
             color: '#2196F3',
-            name: 'Insider threats',
+            name: 'Insider Threats',
             formulaVariable: 1110,
             tooltipText: {
               title: 'Insider threats',
@@ -226,7 +226,7 @@ module.exports.defaultJson = {
         name: 'Cost of Exposure',
         subTitle: 'Cost',
         mainTitle: 'Potential financial impact',
-        mainTitle2: 'Minimize your potential impact cost',
+        mainTitle2: 'Minimize your potential costs',
         compareTitle: "Here's how much money you can <br /> save every year",
         tooltip: true,
         costs: [
@@ -275,7 +275,7 @@ module.exports.defaultJson = {
     ],
   },
   lastSection: {
-    buttonText: 'Connect Cognni',
+    buttonText: 'Connect to Cognni',
     href: 'https://onboard.cognni.ai/consent',
   },
 };
